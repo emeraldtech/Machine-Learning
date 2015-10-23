@@ -11,7 +11,7 @@ Using devices such as Jawbone Up, Nike FuelBand, and Fitbit it is now possible t
 ## Goal
 Use data from accelerometers on the belt, forearm, arm, and dumbell of 6 participants. They were asked to perform barbell lifts correctly and incorrectly in 5 different ways. More information is available from the website here: http://groupware.les.inf.puc-rio.br/har (see the section on the Weight Lifting Exercise Dataset). 
 
-### Outcome Classification
+## Outcome Classification
 Six young health participants were asked to perform one set of 10 repetitions of the Unilateral Dumbbell Biceps Curl in five different fashions: exactly according to the specification (Class A), throwing the elbows to the front (Class B), lifting the dumbbell only halfway (Class C), lowering the dumbbell only halfway (Class D) and throwing the hips to the front (Class E).
 Class A corresponds to the specified execution of the exercise, while the other 4 classes correspond to common mistakes. Participants were supervised by an experienced weight lifter to make sure the execution complied to the manner they were supposed to simulate.
 
@@ -98,7 +98,7 @@ print(modelFit)
 
 ### Cross-Validation
 #### In random forests, there is no need for cross-validation or a separate test set to get an unbiased estimate of the test set error. It is estimated internally, during the run.
-#### OOB (out-of-bag) estimate is 2.46%
+#### OOB (out-of-bag) estimate is 2.36%
 
 ### Prediction Using Data Partitioned for Testing Split from Provided Training Data
 ```{r}
