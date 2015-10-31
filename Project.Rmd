@@ -116,7 +116,7 @@ answers <- predict(modelFit,testDataPrediction)
 ```
 ### Submitted all test case predictions, recieving confirmation of 100% accuracy!
 
-## Refernces/Citations
+## References/Citations
 
 Data set for this analysis provided by:
 
